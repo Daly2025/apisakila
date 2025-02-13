@@ -16,7 +16,7 @@ function verificarToken($token) {
         exit();
     }
 }
-
+/*
 // Extraer el token desde la cabecera Authorization
 $headers = apache_request_headers();
 
@@ -30,3 +30,4 @@ $token = str_replace("Bearer ", "", $headers['Authorization']);
 $datos_usuario = verificarToken($token);
 
 echo json_encode(["mensaje" => "Acceso concedido", "usuario" => $datos_usuario]);
+*/

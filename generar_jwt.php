@@ -19,9 +19,10 @@ function generarToken($usuario_id) {
 
     return JWT::encode($payload, $clave_secreta, 'HS256');
 }
-
+/*
 // Simulación de autenticación de usuario
 $usuario_id = 123; // Suponiendo que este usuario inició sesión correctamente
 $token = generarToken($usuario_id);
 
 echo json_encode(["token" => $token]);
+*/
